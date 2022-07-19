@@ -5,62 +5,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- ........ Style sheets ........ -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- ........ Font family .......... -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <nav>
+    <nav class="nav-bar">
         <ul>
-            <li> <a href="">Day Structure</a> </li>
-            <li><a href="">Team</a></li>
-            <li><a href="">Scheadule</a></li>
+            <li> <a href="#structure">Day Structure</a> </li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#schedule">Scheadule</a></li>
         </ul>
     </nav>
-    <header>
+    <header class="header">
         <div>
             <h1> <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-logo.png" alt="IronSkydive Logo"> IRONSKYDIVE</h1>
             <h2>LET THE TRIP BEGING</h2>
-            <aside>
-                <i>"The best experiencie of uur lives"</i>
+            <aside class="quote">
+                <i>"The best experiencie of our lives"</i>
                 <p>Ariel Quiñones & Gonzalo Manrique, Ironhack CEOs</p>
             </aside>
         </div>
     </header>
     <!-- ..................Section 1.................. -->
-    <section>
+    <section id="general-information" class="dark-background">
         <div> <!-- Or could be <article> -->
             <h3>Hello</h3>
-            <p>Welcome to ironSkydiving, the greates adventure of your life.</p>
-            <a href="#">learn more</a>
+            <p class="text">Welcome to ironSkydiving, the greates adventure of your life.</p>
+            <a href="#" class="link-btn">learn more</a>
         </div>
         <div>
             <h3>About us</h3>
-            <p>We like programming websites, but we also love the adrenaline rush.</p>
-            <a href="#">Watch Video</a>
+            <p class="text">We like programming websites, but we also love the adrenaline rush.</p>
+            <a href="#" class="link-btn">Watch Video</a>
         </div>
         <div>
             <h3>Wanna join?</h3>
-            <p>Sign up so you can become a better programmer, and cooler person</p>
-           <a href="#">Register</a>
+            <p class="text">Sign up so you can become a better programmer, and cooler person</p>
+           <a href="#" class="link-btn">Register</a>
         </div>
     </section>
      <!-- ..................Section 2.................. -->
-    <section>
+    <section id="structure" > 
         <h3>How do we structure the day?</h3>
         <div>
-            <article>
+            <article class="service-box">
                 <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-training.png" alt="image of books">
                 <h4>1. Training</h4>
                 <p>We teach you everything you need to know to jump from a plane</p>
             </article>
-            <article> 
+            <article class="service-box"> 
                 <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-get-ready.png" alt="image about ready">
                 <h4>2. Get Ready</h4>
                 <p>You are already prepared, you just need the suit and a parachute. All sizes available</p></article>
-            <article>
+            <article class="service-box">
                 <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-fly.png" alt="image of a plane">
                 <h4>3. Fly</h4>
                 <p>You are ready, adn the plane is waiting for us in the hangar Let's fly!</p>
             </article>
-            <article>
+            <article class="service-box">
                 <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-jump.png
                 " alt="image of parachute">
                 <h4>4. Jump!</h4>
@@ -69,31 +76,31 @@
         </div>
     </section>
     <!-- ..................Section 3.................. -->
-    <section>
+    <section id="team" class="dark-background">
         <h3>Team</h3>
-        <p>
+        <p class="section-text">
             Our team collectively has 75 years of experience. 
             Odds are, when you jump out of the plane with these guys (and girls), you won't go splat.
         </p>
         <hr>
         <div>
             <article>
-                <h4>Harold Rothstein</h4>
+                <h4 class="member-name">Harold Rothstein</h4>
                 <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_c18b1c463b80090894237a262dfdfbad.jpg
                 " alt="Harold Rothstein">
             </article>
             <article>
-                <h4>Susan Phillips</h4>
+                <h4 class="member-name">Susan Phillips</h4>
                 <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_a18d6123a7c8e75f7e70a4e59b941093.jpg" alt="Susan Phillips">
             </article>
             <article>
-                <h4>Taylor Roberts</h4>
+                <h4 class="member-name">Taylor Roberts</h4>
                 <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_7104a331530d1b0611da55093b7dc421.jpg" alt="Taylor Roberts">
             </article>
         </div>
     </section>
      <!-- ..................Section 4.................. -->
-    <section>
+    <section id="schedule">
         <div>
             <h3>Schedule</h3>
             <table>
@@ -110,7 +117,7 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>9:00am - 11:00am</td> 
+                        <th scope="row">9:00am - 11:00am</th> 
                         <td></td>
                         <td></td>
                         <td>X</td>
@@ -119,7 +126,7 @@
                         <td>X</td>
                     </tr>
                     <tr>
-                        <td>12:00pm - 2:00pm</td>
+                        <th scope="row">12:00pm - 2:00pm</th>
                         <td></td>
                         <td></td>
                         <td></td>
@@ -128,7 +135,7 @@
                         <td>X</td>
                     </tr>
                     <tr>
-                        <td>3:00pm - 5:00pm</td>
+                        <th scope="row">3:00pm - 5:00pm</th>
                         <td></td>
                         <td></td>
                         <td>X</td>
@@ -143,13 +150,13 @@
             <h3>Schedule a Time Slot</h2>
             <form action="">
                 <label for="">Email</label>
-                <input type="email">
+                <input type="email" placeholder="Enter your email">
                 <label for="">Participants</label>
-                <input type="text">
+                <input type="text" placeholder="Number of participants">
                 <label for="">Date</label>
                 <input type="date">
                 <label for="">Time</label>
-                <input type="datetime" name="" id="">
+                <input type="time" name="" id="">
                 <button type="submit">Reserve Your Slot!</button>
             </form>
         </div>

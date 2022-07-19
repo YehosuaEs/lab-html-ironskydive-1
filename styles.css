@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 3.5em; 
+    
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-size: 9em; 
+    text-align: center;
+    text-transform: uppercase;
+}
+h2{
+    font-size: 5em;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 4em;
+}
+h3{
+    font-size: 4.2em;
+    text-align: center;
+    Line-height: 1em;
+}
+h4{
+    font-size: 1.5em;
+    letter-spacing: 0.4px;
+    line-height: 1em;
+}
+h5{
+    Size: 1.2em;
+    line-height: 1em;
+}
+/* -----------------NAV----------------- */
+.nav-bar{
+    background-color: rgb(25, 33, 41);
+    display: flex;
+
+}
+
+.nav-bar a{
+    color: rgb(999,999,999);
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.header{
+   /*  background-image:url(https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg);
+    background-position:center;
+    background-repeat: no-repeat; */
+    background: #ffffff url(https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg) no-repeat center;
+    background-size:cover;
+    height: 650px;
+}
+
+.header h2{
+    color: rgb(999,999,999);
+    text-shadow: #020819 8px -20px 9px;
+}
+
+.quote > i{
+ font-size: 2.5em;
+}
+
+/* #general-information{
+
+} */
+
+.dark-background{
+    background-color: rgb(25, 33, 41);
+    color: rgb(999,999,999);
+}
+
+.text{
+    font-size: 2em;
+    font-weight: 100;
+    text-align: center;
+}
+.link-btn{
+    /* (check out the table at the beginning of this iteration) */
+    background-color: rgb(67, 163, 230);
+    color: rgb(999,999,999);
+    font-family:'Roboto', sans-serif;
+    font-size: 2em;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.service-box{
+    font-size: 1.7em;
+    text-align: center;
+}
+
+.service-box img{
+    width: 125px;
+}
+
+.section-text{
+font-size: 1.9em;
+text-align: center;
+}
+
+.member-name{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+#team img{
+    width: 250px;
+    height: 180px;
+}
