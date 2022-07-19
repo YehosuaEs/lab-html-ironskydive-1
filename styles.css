@@ -100,7 +100,7 @@ h5{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    height: 260px;
 }
 
 .dark-bg_articles{
@@ -134,7 +134,6 @@ h5{
     width: 130px;
     height: 40px;
     padding-top: 10px;
-    
 }
 
 /* ------------------------ section 2 ------------------------  */
