@@ -4,8 +4,7 @@
     padding: 0;
     font-size: 10px;
     font-family: 'Roboto', sans-serif;
-    line-height: 3.5em; 
-    
+
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -36,62 +35,109 @@ h5{
     Size: 1.2em;
     line-height: 1em;
 }
-/* -----------------NAV----------------- */
+/* ----------------------------------NAV---------------------------------- */
 .nav-bar{
     background-color: rgb(25, 33, 41);
-    display: flex;
-
 }
 
-.nav-bar a{
+.nav-bar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 15px 0;
+    
+}
+
+.nav-links{
     color: rgb(999,999,999);
     text-decoration: none;
-    font-size: 2em;
+    font-size: 1.5em;
+    padding: 05px 0;
 }
 
+.nav-links:hover{
+    color: rgb(205, 209, 201);
+}
+
+/* ----------------------------------HEADER---------------------------------- */
 .header{
    /*  background-image:url(https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg);
     background-position:center;
     background-repeat: no-repeat; */
-    background: #ffffff url(https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg) no-repeat center;
+    background: #ffffff url(https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg) no-repeat 0 0;
     background-size:cover;
-    height: 650px;
+    height: 500px;
+}
+.header h1{
+    padding-top: 40px;
+    font-size: 6em;
+}
+
+.header-bg{
+    width: 70px;
+
 }
 
 .header h2{
     color: rgb(999,999,999);
     text-shadow: #020819 8px -20px 9px;
+    line-height: 0;
+    font-size: 3em;
+    margin-right: 25px;
 }
 
+.quote{
+    margin: 200px;
+}
 .quote > i{
- font-size: 2.5em;
+ font-size: 2em;
 }
-
-/* #general-information{
-
-} */
-
-.dark-background{
+/* ------------------------ SECTIONS ------------------------  */
+/* ------------------------ section 1 ------------------------  */
+.dark-bg{
     background-color: rgb(25, 33, 41);
     color: rgb(999,999,999);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.dark-bg_articles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin: 0 15px;
+}
+
+.dark-bg_articles h3{
+    font-size: 2.8em;
 }
 
 .text{
-    font-size: 2em;
+    font-size: 1.3em;
     font-weight: 100;
     text-align: center;
+    padding: 15px 15px 20px;
+    line-height: 24px;
 }
+
 .link-btn{
-    /* (check out the table at the beginning of this iteration) */
     background-color: rgb(67, 163, 230);
     color: rgb(999,999,999);
     font-family:'Roboto', sans-serif;
-    font-size: 2em;
+    font-size: 1.6em;
     letter-spacing: 0.5px;
     text-align: center;
     text-decoration: none;
+    width: 130px;
+    height: 40px;
+    padding-top: 10px;
+    
 }
 
+/* ------------------------ section 2 ------------------------  */
 .service-box{
     font-size: 1.7em;
     text-align: center;
